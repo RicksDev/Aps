@@ -1,0 +1,147 @@
+* {
+    margin : 0 auto;
+    padding: 0 auto;
+}
+
+body {
+    background-color: grey !important;
+    height          : 100vh !important;
+}
+
+.barra-de-pesquisa {
+    float       : right !important;
+    margin-top  : -67px !important;
+    margin-right: 30px !important;
+}
+
+.li-link-menu {
+    display    : inline-block !important;
+    margin     : 25px 200px !important;
+    margin-left: 2% !important;
+}
+
+header {
+    width           : 100% !important;
+    height          : 5em !important;
+    background-color: black !important;
+}
+
+.barra-de-pesquisa input {
+    height                    : 37px !important;
+    width                     : 200px !important;
+    padding                   : 10px !important;
+    border-top-left-radius    : 10px !important;
+    border-bottom-left-radius : 10px !important;
+    border-bottom-right-radius: 10px !important;
+    border-top-right-radius   : 10px !important;
+}
+
+.barra-de-pesquisa button {
+    height                    : 35px !important;
+    border-top-right-radius   : 10px !important;
+    border-bottom-right-radius: 10px !important;
+    border                    : 2px solid green !important;
+    background-color          : gray !important;
+}
+
+.barra-de-pesquisa button:hover {
+    background-color: grey !important;
+    color           : antiquewhite !important;
+}
+
+a:hover {
+    color:darkgreen !important;
+}
+
+a {
+    color          : white !important;
+    text-decoration: double !important;
+    font-family    : 'Times New Roman', Times,  !important;
+}
+
+.section-carrosel {
+    width : 80% !important;
+    margin: 0 auto !important;
+    height: 500px !important;
+
+}
+
+img {
+    height: 550px !important;
+    width : 100% !important;
+}
+
+.texto-principal {
+    color      : darkgreen;
+    margin-top : 100px;
+    margin-left: 50px;
+    text-align : center;
+    font-family: 'Akshar', sans-serif;
+
+}
+
+label {
+    font-size: 30px;
+    color    : darkgreen;
+}
+
+.menu-2 {
+    width           : 100% !important;
+    height          : auto !important;
+    background-color: black !important;
+    padding         : 2em;
+}
+
+#form-dates {
+    width          : 100%;
+    display        : flex;
+    height         : auto;
+    flex-direction : column;
+    justify-content: center;
+    align-items    : center;
+    text-align     : center;
+
+}
+
+.button-2 {
+    margin-top: 30px;
+}
+
+.button-2 button {
+    background-color: grey;
+    width           : 175px;
+    color           : white;
+    font-weight     : bold;
+    border-radius   : 10px;
+}
+
+h4 {
+    color      : darkgreen;
+    margin-left: 250px;
+    text-align : center;
+}
+
+.imagens {
+    width           : 100%;
+    height          : 3em;
+    background-color: black;
+    display         : flex;
+    justify-content : center;
+
+}
+
+.imagens img {
+    width : 30px !important;
+    height: 30px !important;
+    margin: 0 5px !important;
+}
+
+.fale-conosco p {
+    font-family: 'Akshar', sans-serif;
+    color      : darkgreen;
+    text-align : center;
+    margin-top : 20px;
+    font-size  : 25px;
+
+}
+.fale-conosco p b:hover {color: red;}

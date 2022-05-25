@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="estilo.css">
+  <title>Home | Ecobags</title>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css"
+    integrity="sha384-zCbKRCUGaJDkqS1kPbPd7TveP5iyJE0EjAuZQTgFLD2ylzuqKfdKlfG/eSrtxUkn" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"
+    integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+    crossorigin="anonymous"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-fQybjgWLrvvRgtW6bFlB7jaZrFsaBXjsOMm/tB9LTS58ONXgqbR9W8oWht/amnpF"
+    crossorigin="anonymous"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Akshar:wght@500&display=swap" rel="stylesheet">
+<link rel="shortcut icon" href="/imagens/arvore_3.jpg" type="image/x-icon" >
+</head>
+
+<body>
+  <header>
+    <nav class="link">
+      <ul class="ul-link-menu">
+        <!-- O link menu do site está aqui. -->
+        <li class="li-link-menu"><a href="./index.html"> Home</a></li>
+        <li class="li-link-menu"><a href="./pages/quemsomos.html"> Quem somos nós</a></li>
+        <li class="li-link-menu"><a href="./pages/porquePrevenir.html"> Porque prevenir?</a></li>
+        <li class="li-link-menu"><a href="./pages/façavoce.html"> Faça você mesmo</a></li>
+      </ul>
+    </nav>
+    <div class="barra-de-pesquisa">
+      <!-- A barra de pesquisa do site esta localizada aqui -->
+      <form action="https://www.google.com.br/">
+        <input type="text" name="pesquisa" placeholder="Pesquise aqui!">
+        <button type="submit">Enviar</button>
+      </form>
+
+    </div>
+  </header>
+  <section class="section-carrosel">
+    <!-- Colocando o carrosel, pegamos do bootstrap -->
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img class="d-block mx-auto" src="./imagens/imagens/Desenvolvimento Site.jpg" alt="First slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block mx-auto" src="./imagens/imagens/floresta2.jpg" alt="Second slide">
+        </div>
+        <div class="carousel-item">
+          <img class="d-block mx-auto" src="./imagens/imagens/a.jpg" alt="Third slide">
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+
+      </a>
+    </div>
+  </section>
+  <p></p>
+  <div class="texto-principal">
+    <hr>
+    <h1>O <b>desenvolvimento sustentável</b> é conseguir desenvolver a sociedade atual com os recursos que já existem
+      sem esgotá-los, para as próximas gerações poderem utilizar também. Ou seja, podemos desenvolver a nossa sociedade
+      utilizando os recursos naturais que temos aqui, porém, sem esgotá-los, para não prejudicar as gerações futuras.
+      Ele procura aliar a preservação ambiental ao progresso socioeconômico e político dos países. </h1>
+    <hr>
+  </div>
+ 
+
+  
+  <header class="menu-2">
+  <nav class="link">
+    <ul class="ul-link-menu">
+      <!-- O link menu do site está aqui. -->
+      <li class="li-link-menu"><a href="#">  <h4>Deixe aqui seus dados para nos ajudar neste desafio, assim você mostra que está contribuindo com o desenvolvimento natural. </h4>
+      </a></li>
+      <form id="form-dates">
+        <label>Nome:</label> <input type="text" name="nome" placeholder="Coloque seu nome!" />
+        <label>CPF:</label> <input type="number" name="cpf" placeholder="Coloque seu CPF" />
+        <label>Endereço:</label> <input type="text" name="end" placeholder="Digite seu Endereço" />
+        <label>Estado:</label>
+        <select name="estados-brasil">
+          <option value="AC">Acre</option>
+          <option value="AL">Alagoas</option>
+          <option value="AP">Amapá</option>
+          <option value="AM">Amazonas</option>
+          <option value="BA">Bahia</option>
+          <option value="CE">Ceará</option>
+          <option value="DF">Distrito Federal</option>
+          <option value="ES">Espírito Santo</option>
+          <option value="GO">Goiás</option>
+          <option value="MA">Maranhão</option>
+          <option value="MT">Mato Grosso</option>
+          <option value="MS">Mato Grosso do Sul</option>
+          <option value="MG">Minas Gerais</option>
+          <option value="PA">Pará</option>
+          <option value="PB">Paraíba</option>
+          <option value="PR">Paraná</option>
+          <option value="PE">Pernambuco</option>
+          <option value="PI">Piauí</option>
+          <option value="RJ">Rio de Janeiro</option>
+          <option value="RN">Rio Grande do Norte</option>
+          <option value="RS">Rio Grande do Sul</option>
+          <option value="RO">Rondônia</option>
+          <option value="RR">Roraima</option>
+          <option value="SC">Santa Catarina</option>
+          <option value="SP">São Paulo</option>
+          <option value="SE">Sergipe</option>
+          <option value="TO">Tocantins</option>
+        </select>
+        <div class="button-2">
+        <button type="submit"> Enviar</button>
+      </div>
+    
+      </form>
+      <a class="fale-conosco" href="/pages/Faleconosco.html"> 
+        <p> Para dúvidas e informações, acesse o nosso <b>fale conosco.</b></p>
+
+
+      </a>
+
+  </nav>
+  </header>
+
+  <footer class="imagens">
+    <img src="/imagens/instagram.png">
+    <img src="/imagens/facebook.png">
+    <img src="/imagens/linkedin.png">
+  </footer>
+  
+
+
+
+</body>
+
+
+</html>
